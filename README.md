@@ -1,4 +1,7 @@
 # React Native Typescript Starter
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dooboolab/dooboo-native.svg)](https://greenkeeper.io/)
+
 > Specification
 * typescript
 * react-navigation
