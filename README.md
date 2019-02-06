@@ -1,7 +1,7 @@
 # React Native Typescript Starter
 > Specification
 * typescript
-* react-navigation
+* react-native-router-flux
 * test jest with typescript
 * localization
 * mobx
@@ -31,9 +31,10 @@ app/
 │  └─ images // app images like background images
 ├─ node_modules/
 ├─ src/
-│  └─ apis
+│  └─ api
 │  └─ components
 │  └─ models
+│  └─ screens
 │  └─ stores
 │  └─ utils
 │  └─ index.tsx
@@ -132,10 +133,16 @@ NativeModules.ReactLocalization = {
 ```
 
 ## React version
-16.5
+16.6.3
 
 ## React Native version
-0.57
+0.58.3
 
-## React navigation
-2.14.0
+## React Native router flux
+4.0.6
+
+## Mobx
+5.9.0
+
+## Mobx React
+5.4.3
