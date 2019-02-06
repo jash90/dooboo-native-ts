@@ -16,11 +16,12 @@ import { observable } from 'mobx';
 import { observer } from 'mobx-react';
 import { inject } from 'mobx-react/native';
 
-import { ratio, colors } from '../../utils/Styles';
-import { IC_MASK } from '../../utils/Icons';
-import User from '../../models/User';
-import { getString } from '../../../STRINGS';
-import Button from '../shared/Button';
+import { ratio, colors } from '../utils/Styles';
+import { IC_MASK } from '../utils/Icons';
+import User from '../models/User';
+import { getString } from '../../STRINGS';
+import Button from '../components/Button';
+import {Actions} from "react-native-router-flux";
 
 const styles: any = StyleSheet.create({
   container: {
@@ -124,7 +125,7 @@ class Page extends Component<IProps, IState> {
             imgLeftStyle={styles.imgBtn}
           >{getString('LOGIN')}</Button>
           <Button
-            onPress={() => this.props.navigation.navigate('NotFound') }
+            onPress={() => Actions.home() }
             style={[
               styles.btnNavigate,
               {

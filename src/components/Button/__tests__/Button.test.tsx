@@ -1,6 +1,6 @@
 import 'react-native';
 import * as React from 'react';
-import Button from '../Button';
+import Button from '../index';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';

@@ -14,10 +14,10 @@ import {
 } from 'react-native';
 import { inject } from 'mobx-react/native';
 
-import { ratio } from '../../utils/Styles';
+import { ratio } from '../utils/Styles';
 import {
   IC_MASK,
-} from '../../utils/Icons';
+} from '../utils/Icons';
 
 const styles = StyleSheet.create({
   container: {
