@@ -1,4 +1,3 @@
-import { getStatusBarHeight } from 'react-native-status-bar-height';
 // import { observer } from 'mobx-react/native';
 import React from 'react';
 import { Provider } from 'mobx-react';
